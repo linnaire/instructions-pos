@@ -1,0 +1,39 @@
+* {
+	/*border: 1px red solid !important;*/
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-ms-box-sizing : border-box;
+	box-sizing: border-box;
+}
+
+.title-header {
+	color: #ffffff;
+}
+
+.collapse-button {
+	float: right;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	overflow: hidden;
+}
+.collapse-button:hover{
+	background-color: transparent;
+	border: none;
+}
+
+.collapse-button:active{
+	background-color: transparent;
+	border: none;
+}
+
+.collapse-button:focus{
+	background-color: transparent;
+	border: none;
+}
+
+.collapse-button:visited{
+	background-color: transparent;
+	border: none;
+}
