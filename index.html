@@ -31,43 +31,189 @@
 
 	<!-- START : Instruction Description. -->
 	<div class="row">
-		<div class="jumbotron">
-			<p>
-				This are the following steps to be followed, so that you can keep track on the updates of the POS-System.
-			</p>
+		<div class="col-md-12">
+			<div class="jumbotron banner">
+				<p>
+					This are the following steps to be followed, so that you can keep track on the updates of the POS-System.
+				</p>
+			</div>
 		</div>
 	</div>
 	<!-- END : Instruction Description. -->
 
 
-	<!-- START : Step 1 - Create Database. -->
+	<!-- START : Sets of Instructions. -->
 	<div class="row">
 		<div class="col-md-12">
-			<div class="panel panel-primary">
-				<div class="panel-heading title-header">
-					<div class="panel-title">
-						<button class="btn btn-primary collapse-button" data-toggle="collapse" data-target="#step1-content">
-							<span class="glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
-						</button>
-						  <h3>Creating Database</h3>
+			<!-- START : Accordion -->
+			<div class="panel-group" id="accordion">
+				<!-- START : Creating Database -->
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#step1-content">Creating Database</a>
+						</h3>
+					</div>
+					<div class="panel-collapse collapse in" id="step1-content">
+						<div class="panel-body">
+
+							<!-- START : Step 1 Accordion -->
+							<div class="panel-group" id="step1-accordion">
+								<!-- START : Open PHPMYADMIN -->
+								<div class="panel panel-primary">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#step1-accordion" href="#step1-1">Open <em>phpmyadmin</em></a>
+										</h4>
+									</div>
+									<div class="panel-collapse collapse in" id="step1-1">
+										<div class="panel-body">
+											<div class="alert alert-info">
+												<p>
+													<strong>NOTE : </strong> In creating database, make sure you RUN your XAMPP or WAMPP.
+												</p>
+												<p>
+													In running XAMPP or WAMPP make sure that you have quit your SKYPE because it gets the PORT 80 used for APACHE.
+												</p>
+												<p>
+													For more details in running and configuring WAMPP <em><a target="_blank" href="http://www.makeuseof.com/tag/how-to-set-up-your-own-wampserver/">click this link.</a></em>
+												</p>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<img class="img-responsive instructions-screenshot" src="img/phpmyadmin_url.png" alt="url for phpmyadmin">
+												</div>
+												<div class="col-md-12">
+													<h4>Step 1</h4>
+													<p>
+														Once you've configured your XAMPP or WAMPP, go to your browser and type or click this link <em><a target="_blank" href="localhost:80/phpmyadmin">localhost:80/phpmyadmin </a></em> or <em><a href="localhost:8080/phpmyadmin" target="_blank"> localhost:8080/phpmyadmin</a></em>
+													</p>
+													<p>
+														If the link doesn't work just reload it using the same URL.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END : Open PHPMYADMIN -->
+
+								<!-- START : Enter Credentials -->
+								<div class="panel panel-primary">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#step1-accordion" href="#step1-2">Enter Credentials</a>
+										</h4>
+									</div>
+									<div class="panel-collapse collapse" id="step1-2">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img class="img-responsive instructions-screenshot" src="img/phpmyadmin_login.png" alt="PHPMYADMIN Login Page">
+												</div>
+												<div class="col-md-12">
+													<h4>Step 2</h4>
+													<p>
+														Once the phpmyadmin is loaded to your page, you will be redirected to their login page where you will input the credentials and click login.
+													</p>
+												</div>
+											</div>
+											<div class="alert alert-info">
+												<p>
+													<strong>NOTE :</strong> By Default the username for phpmyadmin is <strong><em>root</em></strong> and just leave the password text field empty.
+												</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- END : Enter Credentials -->
+
+								<!-- START : Create Database -->
+								<div class="panel panel-primary">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#step1-accordion" href="#step1-3">Create Database</a>
+										</h4>
+									</div>
+									<div class="panel-collapse collapse" id="step1-3">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img class="img-responsive instructions-screenshot" src="img/phpmyadmin_dashboard.png" alt="PHPMYADMIN Dashboard">
+												</div>
+												<div class="col-md-12">
+													<h4>Step 3</h4>
+													<p>
+														Once you finished entering the credentials, you will be redirected to the dashboard page. And in there, you will find the <em><strong>New</strong></em> in a tree node. Click it to be redirected to Create Database page.
+													</p>
+												</div>
+												<div class="col-md-12">
+													<img class="img-responsive instructions-screenshot" src="img/phpmyadmin_database.png" alt="PHPMYADMIN Database">
+												</div>
+												<div class="col-md-12">
+													<p>
+														Now that you are in the database page, Type the database name <em><strong>blv_pos_db</strong></em> on the database text field and click <strong><em>Create</em></strong>.
+													</p>
+												</div>
+											</div>
+											<div class="alert alert-info">
+													<p>
+														<strong>CONGRATULATIONS!</strong> you have created the database for the project. Now you can proceed to the next step by clicking Cloning the project.
+													</p>
+												</div>
+										</div>
+									</div>
+								</div>
+								<!-- END : Create Database -->
+							</div>
+							<!-- END : Step 1 Accordion -->
+
+						</div>
 					</div>
 				</div>
-				<div class="panel-body panel-collapse collapse" id="step1-content">
-					<div class="row">
-						<div class="col-md-6">
-							<img src="http://placehold.it/300x300" alt="" class="img-responsive">
-						</div>
-						<div class="col-md-6">
-							<img src="http://placehold.it/300x300" alt="" class="img-responsive">
+				<!-- END : Creating Database -->
+					
+				<!-- START : Cloning Project -->
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#step2-content">Cloning the Project</a>
+						</h3>
+					</div>
+					<div class="panel-collapse collapse" id="step2-content">
+						<div class="panel-body">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit neque odit tenetur, natus, assumenda excepturi, est tempore alias accusamus ab ut suscipit aspernatur soluta illum et adipisci culpa, iure cum.
+							</p>
 						</div>
 					</div>
 				</div>
+				<!-- END : Cloning Project -->
+
+				<!-- START : Start running the project -->
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#step3-content">Start Running the Project</a>
+						</h3>
+					</div>
+					<div class="panel-collapse collapse" id="step3-content">
+						<div class="panel-body">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit neque odit tenetur, natus, assumenda excepturi, est tempore alias accusamus ab ut suscipit aspernatur soluta illum et adipisci culpa, iure cum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END : Start running the project -->
 			</div>
+			<!-- END : Accordion -->
 		</div>
 	</div>
-	<!-- END : Step 1 - Create Database. -->
+	<!-- END : Sets of Instructions -->
 
-
+		
 	</div>
 	<!-- END : Main Container -->
 

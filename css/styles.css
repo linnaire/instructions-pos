@@ -10,6 +10,10 @@
 	color: #ffffff;
 }
 
+.banner {
+	margin-top: 30px;
+}
+
 .collapse-button {
 	float: right;
 	font-size: 20px;
@@ -36,4 +40,13 @@
 .collapse-button:visited{
 	background-color: transparent;
 	border: none;
+}
+
+.instructions {
+	padding: 10px 50px 10px 10px;
+	text-align: justify;
+}
+
+.instructions-screenshot {
+	margin: 0 auto;
 }
