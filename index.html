@@ -38,6 +38,19 @@
 				</p>
 			</div>
 		</div>
+
+		<div class="col-md-12">
+			<div class="alert alert-info">
+				<p>
+					In learning HTML and CSS for beginners, I highly recommend this following sites, It does not only gives tutorials but also exercise to strengthen your learnings. 
+					<ul>
+						<li>  <a target="_blank" href="https://classroom.udacity.com/courses/">Udacity</a> </li>
+						<li> <a target="_blank" href="http://www.w3schools.com/">W3schools</a> </li>
+						<li><a target="_blank" href="https://www.youtube.com/watch?v=LqvFIuVlyP8&list=PL41lfR-6DnOruqMacTfff1zrEcqtmm7Fv">Youtube</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
 	</div>
 	<!-- END : Instruction Description. -->
 
@@ -114,7 +127,7 @@
 												<div class="col-md-12">
 													<h4>Step 2</h4>
 													<p>
-														Once the phpmyadmin is loaded to your page, you will be redirected to their login page where you will input the credentials and click login.
+														Once the phpmyadmin page is loaded, you will be redirected to their login page where you will input the credentials and click login.
 													</p>
 												</div>
 											</div>
@@ -183,9 +196,147 @@
 					</div>
 					<div class="panel-collapse collapse" id="step2-content">
 						<div class="panel-body">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit neque odit tenetur, natus, assumenda excepturi, est tempore alias accusamus ab ut suscipit aspernatur soluta illum et adipisci culpa, iure cum.
-							</p>
+
+						<!-- START : STEP 2 Accordion -->
+						<div class="panel-group" id="step2-accordion">
+							<!-- START : STEP 2-1 Running Command Line -->
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#step2-accordion" href="#step2-1">Running Command the Line</a>
+									</h4>
+								</div>
+								<div class="panel-collapse collapse in" id="step2-1">
+									<div class="panel-body">
+										<div class="col-md-12">
+											<img src="img/cmd_admin.png" alt="Command Prompt run as administrator" class="img-responsive instructions-screenshot">
+										</div>
+										<div class="col-md-12">
+											<h4>Step 1</h4>
+											<p>
+												In running the <strong>command prompt</strong> (cmd), Click the windows key and search for Command Prompt, then right click and <strong>Run as Administrator.</strong>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- END : STEP 2-1 Running Command Line -->
+
+							<!-- START : STEP 2-2 Running Command Line -->
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#step2-accordion" href="#step2-2">Switching Directories</a>
+									</h4>
+								</div>
+								<div class="panel-collapse collapse" id="step2-2">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-12">
+												<img src="img/cmd_run_admin.png" alt="" class="img-responsive instructions-screenshot">
+											</div>
+											<div class="col-md-12">
+												<h4>Step 2</h4>
+												<p>
+													Now that you have run your Command Prompt as Administrator, We will now proceed to the next step, which is <strong>switching directories</strong>. 
+												</p>
+												<p>
+													When we run the command prompt as administrator, our default directory is 
+													<strong>C:\Windows\system32</strong>, but we need our project to be in Desktop, so that it's accessible and easy to locate. 
+												</p>
+											</div>
+											<div class="col-md-12">
+												<img src="img/cmd_switch.png" alt="" class="img-responsive instructions-screenshot">
+											</div>
+											<div class="col-md-12">
+												<p>
+													In order for us to switch the directory we need to type this command, <strong>cd C:/Users/lgalleno/Desktop</strong>.
+												</p>
+											</div>
+										</div>
+										<div class="alert alert-info">
+											<p>
+												The <strong>cd</strong> stands for "Change Directory".
+											</p>
+											<p>
+												The location of your desktop is in C:/Users/<em>your_username</em>/Desktop, In my case my user name is <em>lgalleno</em> but yours will be different. You can click this <a target="_blank" href="http://www.wikihow.com/Change-Directories-in-Command-Prompt">link</a> for more information
+											</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- END : STEP 2-2 Running Command Line -->
+
+							<!-- START : STEP 2-3 Cloning the project -->
+								
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#step2-accordion" href="#step2-3">Cloning the Project</a>
+									</h4>
+								</div>
+								<div class="panel-collapse collapse" id="step2-3">
+									<div class="panel-body">
+										
+										<div class="col-md-12">
+											<div class="alert alert-info">
+												<p>
+													<strong>VERY IMPORTANT NOTE : </strong> Make sure that you have installed your <strong><a target="_blank" href="https://git-scm.com/download/win">git</a></strong>.
+												</p>
+												<p>
+													In pasting LINKS on the Command prompt, Right-Click then Paste.
+												</p>
+												<p>
+													<strong>VERY IMPORTANT NOTE :</strong> Make sure that you have installed <strong><a target="_blank" href="https://getcomposer.org/download/">composer</a></strong>
+												</p>
+											</div>
+										</div>
+
+										<div class="col-md-12">
+											<img src="img/link.png" alt="link" class="img-responsive instructions-screenshot">
+										</div>
+										<div class="col-md-12">
+											<h4>Step 3</h4>
+											<p>
+												Now that you have successfully changed your directory into Desktop, you may now go to this <a target="_blank" href="https://bitbucket.org/vienzent/blv-pos.git">link</a> and COPY the url needed for cloning.
+											</p>
+										</div>
+										<div class="col-md-12">
+											<img src="img/clone.png" alt="clone" class="img-responsive instructions-screenshot">
+										</div>
+										<div class="col-md-12">
+											<p>
+												After copying the link, go to the Command Prompt again and type 
+												<strong>git clone <em>url</em></strong> (Paste the link that you copied on bit bucket, Right click then "Paste" [example : <strong>git clone https://linnaire@bitbucket.org/vienzent/blv-pos.git</strong>]) then click "Enter"
+											</p>
+											<p>
+												After cloning, type this following commands.
+												<ul>
+													<li>cd blv-pos\</li>
+													<li>git config user.email "your_email" [example : git config user.email "vienzent0000@gmail.com"] </li>
+													<li>git config user.name "your_name" [example : git config user.name "tukmol"]</li>
+													<li>composer install</li>
+													<li>php -r "copy('.env.example', '.env');"</li>
+													<li>php artisan key:generate</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-md-12">
+											<div class="alert alert-success">
+												<p>
+													<strong>CONGRATULATIONS!</strong> You have now finished cloning the project! You may now proceed to step 3, which is running the project!
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- END : STEP2-3 Cloning the project-->
+						</div>
+						<!-- END : STEP 2 Accordion -->
+
 						</div>
 					</div>
 				</div>
@@ -200,9 +351,55 @@
 					</div>
 					<div class="panel-collapse collapse" id="step3-content">
 						<div class="panel-body">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit neque odit tenetur, natus, assumenda excepturi, est tempore alias accusamus ab ut suscipit aspernatur soluta illum et adipisci culpa, iure cum.
-							</p>
+							<!-- START : STEP 3-1 Running the project -->
+							<div class="col-md-12">
+								<div class="alert alert-info">
+									<p>
+										<strong>VERY IMPORTANT NOTE :</strong> In running the project <strong>always</strong> make sure that your WAMPP is running and the wampp icon that is located in your task bar should be green.
+									</p>
+									<p>
+										<strong>NOTE :</strong> Make sure that the directory in your command prompt is in <strong>Desktop/blv-pos</strong>. If not, Re-run the Command Prompt as Administrator then change the directory to <strong>Desktop/blv-pos</strong> [ example : <strong><em>cd C:/Users/lgalleno/Desktop/blv-pos</em></strong> ]
+									</p>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<img class="img-responsive instructions-screenshot" src="img/run.png" alt="url for phpmyadmin">
+							</div>
+							<div class="col-md-12">
+								<h4>STEP 1</h4>
+								<p>
+									After finishing the cloning, run this following commands :
+									<ul>
+										<li>php artisan migrate:refresh --seed</li>
+										<li>php artisan serve --port=8888</li>
+									</ul>
+								</p>
+							</div>
+							<div class="col-md-12">
+								<img class="img-responsive instructions-screenshot" src="img/home.png" alt="url for phpmyadmin">
+							</div>
+							<div class="col-md-12">
+								<p>
+									Once you have finished entering <strong> php artisan serve --port=8888 </strong> you will be redirected to this landing page where you will need to supply the credentials.
+								</p>
+								<p>
+									The credentials are :
+										<p>
+											<strong>Email Address : </strong> admin@localhost.local
+										</p>
+										<p>
+											<strong>Password : </strong> $UP3RP@$$w0rd
+										</p>
+								</p>
+							</div>
+							<div class="col-md-12">
+								<div class="alert alert-success">
+									<p>
+										<strong>CONGRATULATIONS!</strong> You have successfully run the project. Thank you for following this instructions properly, and have a happy time exploring with it. :D Have a nice day!
+									</p>
+								</div>
+							</div>
+							<!-- END : STEP 3-1 Running the project -->
 						</div>
 					</div>
 				</div>

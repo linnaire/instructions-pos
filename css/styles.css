@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 }
 
+
+
 .title-header {
 	color: #ffffff;
 }
@@ -49,4 +51,9 @@
 
 .instructions-screenshot {
 	margin: 0 auto;
+	border: 1px #d3d3d3 solid;
+	padding: 20px;
+}
+div .panel-body .col-md-12 {
+	margin: 10px;
 }
